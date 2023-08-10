@@ -1,0 +1,84 @@
+body{
+    background-color: #0F044C;
+    height: 100vh;
+    display: grid;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.calculator{
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    background: #512B81;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.219);
+}
+
+.calculator form input{
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    width: 270px;
+    height: 80px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+
+input{
+    margin-top: 10px;
+    margin-left: 3px;
+    text-align: right;
+    font-size: 45px;
+    color: white;
+    box-shadow: 0 0 10px 3px #00000033;
+    background-color: #a57cd8;
+}
+
+form button{
+    box-shadow: 0 0 10px 3px #00000033;
+}
+
+.BtnRow{
+    display: flex;
+    flex-direction: row;
+}
+
+.NumBtn,.AC,.Del,.Dot,.Operator{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    border-style: none;
+    margin: 5px;
+    background-color: #8CABFF;
+    font-size: 1.7em;
+    color: white;
+    cursor: pointer;
+}
+
+.Equal{
+    width: 130px;
+    height: 60px;
+    border-radius: 5px;
+    margin: 5px;
+    border-style: none;
+    background-color: #4477CE;
+    font-size: 1.7em;
+    color: white;
+    cursor: pointer;
+}
+
+.NumBtn{
+    background-color: #35155D;
+}
+
+.AC,.Del{
+    background-color: #F4D160;
+}
